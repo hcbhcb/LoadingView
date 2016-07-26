@@ -312,7 +312,7 @@ static LoadingView *msgHud;
 }
 
 
-#pragma mark - 类方法
+#pragma mark - 类方法----
 //显示一个提示消息
 +(void)showAMessage:(NSString *)msg{
     [[self shareMsgHud] showMessage:@"This is a test message"];
